@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مكتبة الرعب - كتب إلكترونية مرعبة</title>
+  <style>
+    body { font-family: 'Cairo', sans-serif; background-color: #0a0a0a; color: #f5f5f5; margin: 0; padding: 0; }
+    .header { text-align: center; padding: 50px 20px; background: linear-gradient(45deg, #1f1f1f, #000); }
+    .header h1 { font-size: 3em; color: #e63946; }
+    .cta-button { background-color: #e63946; color: #fff; padding: 15px 30px; border: none; border-radius: 8px; font-size: 1.2em; cursor: pointer; text-decoration: none; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px 20px; }
+    .feature-card { background-color: #1f1f1f; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 0 10px rgba(230, 57, 70, 0.3); }
+    .feature-card h3 { color: #e63946; }
+    .form-section, .reviews-section { padding: 40px 20px; text-align: center; }
+    .form-section h2, .reviews-section h2 { color: #e63946; margin-bottom: 20px; }
+    form { display: flex; flex-direction: column; max-width: 400px; margin: 0 auto; }
+    input, select { padding: 12px; margin: 10px 0; border: none; border-radius: 8px; }
+    button { background-color: #e63946; color: #fff; padding: 12px; border: none; border-radius: 8px; cursor: pointer; font-size: 1em; }
+    .review { background-color: #1f1f1f; padding: 15px; margin: 10px auto; border-radius: 8px; max-width: 600px; box-shadow: 0 0 5px rgba(230, 57, 70, 0.2); }
+    .review p { margin: 0; }
+    .footer { text-align: center; padding: 20px; background-color: #111; font-size: 0.9em; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>مكتبة الرعب</h1>
+    <p>احصل على أقوى الكتب الإلكترونية المرعبة التي ستجعلك ترتجف من الخوف!</p>
+    <a href="#buy" class="cta-button">تصفح العروض الآن</a>
+  </div>
+
+  <div class="features">
+    <div class="feature-card">
+      <h3>أحدث قصص الرعب</h3>
+      <p>كتب حصرية وحديثة لمحبي الإثارة والغموض.</p>
+    </div>
+    <div class="feature-card">
+      <h3>تنزيل فوري</h3>
+      <p>احصل على الكتاب فور الدفع دون انتظار.</p>
+    </div>
+    <div class="feature-card">
+      <h3>أسعار مميزة</h3>
+      <p>عروض يومية وخصومات تصل حتى 70%.</p>
+    </div>
+  </div>
+
+  <div id="buy" class="form-section">
+    <h2>اطلب كتابك الآن</h2>
+    <form>
+      <input type="text" placeholder="الاسم الكامل" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <select>
+        <option>اختر الكتاب</option>
+        <option>أسطورة الظلال</option>
+        <option>الممر المظلم</option>
+        <option>بيت الأرواح</option>
+      </select>
+      <button type="submit">تنزيل الآن</button>
+    </form>
+  </div>
+
+  <div class="reviews-section">
+    <h2>ماذا قال عملاؤنا</h2>
+    <div class="review">
+      <p>"كتاب رهيب! جعلني لا أنام لثلاث ليالٍ متتالية." - أحمد من القاهرة</p>
+    </div>
+    <div class="review">
+      <p>"أفضل تجربة قراءة مرعبة مررت بها. أنصح به بشدة." - سارة من دبي</p>
+    </div>
+    <div class="review">
+      <p>"محتوى مشوق ومكتوب باحتراف. لا يفوّت!" - يوسف من جدة</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 مكتبة الرعب. جميع الحقوق محفوظة.
+  </div>
+</body>
+</html>
